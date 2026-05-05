@@ -297,7 +297,36 @@ Dataset đã được public trên Kaggle tại:
 🔗 [Vietnamese License Plates Dataset](https://www.kaggle.com/datasets/tanhphp/vietnamese-license-plates)
 
 Bạn có thể tải dataset trực tiếp từ Kaggle để sử dụng cho bài toán phát hiện biển số xe Việt Nam bằng YOLO.
+```
 ---
+
+## 🏆 Kết quả huấn luyện với YOLOv26
+
+Dataset này đã được thử nghiệm huấn luyện với mô hình **YOLOv26** cho bài toán phát hiện biển số xe Việt Nam.
+
+Repo huấn luyện mô hình:
+
+🔗 [Yolov26 License Plate Number Detection](https://github.com/franceto/Yolov26_License-plate-number_Detection)
+
+### Kết quả đánh giá
+
+| Split | Precision | Recall | mAP50 | mAP50-95 |
+|---|---:|---:|---:|---:|
+| Validation | 0.9673 | 0.9281 | 0.9672 | 0.6896 |
+| Test | 0.9883 | 0.9006 | 0.9494 | 0.6927 |
+
+### Kết quả tổng quan
+
+| Metric | Value |
+|---|---:|
+| mAP50 | 0.967 |
+| mAP50-95 | 0.693 |
+
+Kết quả cho thấy dataset có khả năng huấn luyện tốt cho bài toán phát hiện biển số xe Việt Nam, đặc biệt ở chỉ số **mAP50 = 0.967** trên tập validation. Chỉ số **mAP50-95 = 0.693** phản ánh yêu cầu khắt khe hơn về độ khớp bounding box ở nhiều ngưỡng IoU khác nhau.
+
+### Ảnh kết quả dự đoán
+
+![YOLOv26 detection result](assets/yolov26_detection_result.png)
 
 ## ⚠️ Lưu ý
 
