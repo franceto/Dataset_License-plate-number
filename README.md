@@ -297,7 +297,6 @@ Dataset đã được public trên Kaggle tại:
 🔗 [Vietnamese License Plates Dataset](https://www.kaggle.com/datasets/tanhphp/vietnamese-license-plates)
 
 Bạn có thể tải dataset trực tiếp từ Kaggle để sử dụng cho bài toán phát hiện biển số xe Việt Nam bằng YOLO.
-```
 ---
 
 ## 🏆 Kết quả huấn luyện với YOLOv26
