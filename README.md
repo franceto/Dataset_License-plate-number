@@ -108,7 +108,7 @@ dataset/
 │   ├── images/
 │   └── labels/
 ├── val/
-│   ├── images/
+│   ├── images/ 
 │   └── labels/
 └── test/
     ├── images/
