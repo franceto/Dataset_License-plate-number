@@ -145,25 +145,12 @@ Không dùng các biến đổi dễ làm sai đặc trưng biển số: flip ng
 │   ├── split_distribution.png
 │   └── yolov26_detection_result.png
 │
-├── dataset/
-│   ├── data.yaml
-│   ├── train/
-│   │   ├── images/
-│   │   └── labels/
-│   ├── val/
-│   │   ├── images/
-│   │   └── labels/
-│   └── test/
-│       ├── images/
-│       └── labels/
-│
 ├── notebooks/
 │   └── bs.ipynb
 │
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-```
 
 ---
 
