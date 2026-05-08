@@ -1,9 +1,12 @@
 .venv/
 data/
+dataset/
 exports/
 runs/
 __pycache__/
 .ipynb_checkpoints/
+project_full_structure.txt
+*.zip
 *.pt
 *.pth
 *.onnx

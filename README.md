@@ -10,8 +10,6 @@
 
 Dataset ảnh **biển số xe tại Việt Nam** được thu thập từ **Google Images**, gán nhãn thủ công bằng **Roboflow**, xử lý bằng **Python** và chuẩn hóa về định dạng **YOLO Bounding Box** cho bài toán **Object Detection**.
 
-> ⭐ Nếu project hữu ích, hãy cho một sao nhé! ⭐
-
 ---
 
 ## 🔗 Links
